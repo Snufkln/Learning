@@ -1,0 +1,38 @@
+/* values */
+:root {
+  --trans: capitalize;
+}
+body {
+  background-color: rgb(90, 48, 56);
+  text-align: center;
+  margin-top: 35vh;
+  color: rgb(238, 192, 200);
+}
+.container {
+  font-size: 2rem;
+  text-transform: var(--trans);
+  padding-bottom: 0;
+}
+span {
+  font-size: 5rem;
+}
+
+.btn {
+  font-size: 18px;
+  text-transform: var(--trans);
+  font-weight: 550;
+  padding: 4px 8px 4px 8px;
+  border: 2px solid pink;
+  border-radius: 8px;
+  background-color: rgb(143, 177, 177);
+  color: pink;
+  transition: all 0.3s;
+  margin: 0 15px 0 15px;
+}
+
+.btn:hover {
+  background-color: rgb(101, 247, 247);
+  color: rgb(184, 123, 135);
+  border-color: rgb(184, 123, 135);
+  border
+}
